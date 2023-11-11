@@ -223,8 +223,8 @@ bar {
 
 bindsym $mod+Shift+x exec i3lock --color "$bg-color"
 
-exec nitrogen --restore
-exec picom
+exec_always nitrogen --restore
+exec_always picom
 
 
 
