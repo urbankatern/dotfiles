@@ -226,6 +226,7 @@ bindsym $mod+Shift+x exec i3lock --color "$bg-color"
 exec_always nitrogen --restore
 exec_always picom
 exec_always lxsession
+exec_always trayer
 
 
 
