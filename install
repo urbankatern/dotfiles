@@ -3,7 +3,7 @@ sudo pacman -Syu
 sudo pacman -S --no-confirm xorg nvidia
 git clone https://gitlab.com/dwt1/wallpapers
 yay -S dmscripts-git
-sudo pacman -S --no-confirm sddm i3 dmenu rofi picom nitrogen pcmanfm firefox pandoc trayer nm-applet lxsession lxappearance arc-gtk-theme arc-icon-theme
+sudo pacman -S --no-confirm alacritty sddm i3 dmenu rofi picom nitrogen pcmanfm firefox pandoc trayer nm-applet lxsession lxappearance arc-gtk-theme arc-icon-theme
 cp ~/dotfiles/.config/ ~
 sudo systemctl enable sddm
 echo "now restart"
