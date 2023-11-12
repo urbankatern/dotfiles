@@ -1,10 +1,9 @@
 #!/bin/sh
 sudo pacman -Syu
-sudo pacman -S xorg nvidia
-git clone https://github.com/urbankatern/dotfiles
+sudo pacman -S --no-confirm xorg nvidia
 git clone https://gitlab.com/dwt1/wallpapers
 yay -S dmscripts-git
-sudo pacman -S sddm i3 dmenu rofi picom nitrogen pcmanfm firefox pandoc
-cp ~/dotfiles/.config/*.* ~/.config/
+sudo pacman -S --no-confirm sddm i3 dmenu rofi picom nitrogen pcmanfm firefox pandoc trayer
+cp ~/dotfiles/.config/ ~
 sudo systemctl enable sddm
 echo "now restart"
