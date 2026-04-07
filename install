@@ -1,0 +1,3 @@
+#!/bin/sh
+paru -Syu niri noctalia-shell thorium-browser-bin neovim tree-sitter-cli ttf-jetbrains-mono ttf-jetbrains-mono-nerd xorg xwayland-sattelite rofi zsh kitty lxsession thunar
+ln -sf ~/dotfiles/.config/ ~/.config/
