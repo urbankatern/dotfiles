@@ -153,7 +153,7 @@ layout {
 
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-sh-at-startup "qs -c noctalia-shell"
-spawn-at-startup "/usr/bin/emacs" "--daemon"
+spawn-sh-at-startup "lxsession &"
 spawn-at-startup "xwayland-satellite"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
