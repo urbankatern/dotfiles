@@ -27,4 +27,5 @@ require("lazy").setup({
 	require("plugins.autoformatting"),
 	require("plugins.alpha"),
 	require("plugins.misc"),
+	require("plugins.clipboard"),
 })
